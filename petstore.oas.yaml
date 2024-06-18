@@ -30,10 +30,10 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /bankaccount:
+  /IndusInd:
     put:
       tags:
-        - bankaccount
+        - IndusInd
       summary: Update an existing bankaccount
       description: Update an existing bankaccount by Id
       operationId: updatebankaccount
@@ -72,7 +72,7 @@ paths:
             - read:pets
     post:
       tags:
-        - pet
+        - IndusInd
       summary: Add a new pet to the store
       description: Add a new pet to the store
       operationId: addPet
@@ -108,7 +108,7 @@ paths:
   /pet/findByStatus:
     get:
       tags:
-        - pet
+        - IndusInd
       summary: Finds Pets by status
       description: Multiple status values can be provided with comma separated strings
       operationId: findPetsByStatus
@@ -148,7 +148,7 @@ paths:
   /pet/findByTags:
     get:
       tags:
-        - pet
+        - IndusInd
       summary: Finds Pets by tags
       description: Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
       operationId: findPetsByTags
@@ -185,7 +185,7 @@ paths:
   /pet/{petId}:
     get:
       tags:
-        - pet
+        - IndusInd
       summary: Find pet by ID
       description: Returns a single pet
       operationId: getPetById
@@ -218,7 +218,7 @@ paths:
             - read:pets
     post:
       tags:
-        - pet
+        - IndusInd
       summary: Updates a pet in the store with form data
       description: ''
       operationId: updatePetWithForm
@@ -249,7 +249,7 @@ paths:
             - read:pets
     delete:
       tags:
-        - pet
+        - IndusInd
       summary: Deletes a pet
       description: delete a pet
       operationId: deletePet
@@ -277,7 +277,7 @@ paths:
   /pet/{petId}/uploadImage:
     post:
       tags:
-        - pet
+        - IndusInd
       summary: uploads an image
       description: ''
       operationId: uploadFile
