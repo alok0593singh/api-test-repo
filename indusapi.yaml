@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: IndusInd
+  description: The  IndusInd API
+  tags:
+    - bank
+    # - rest
+  links:
+    - url: https://github.com/alok0593singh/api-test-repo/tree/main/swagger-petstore-master
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/alok0593singh/api-test-repo/blob/main/swagger-petstore-master/src/main/resources/openapi.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: ./petstore.oas.yaml
