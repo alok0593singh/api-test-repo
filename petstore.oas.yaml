@@ -15,7 +15,7 @@ externalDocs:
   description: Find out more about Swagger
   url: http://swagger.io
 servers:
-  - url: https://indusnd.ux.io
+  - url: https://indusnd.com
 tags:
   - name: IndusInd
     description: Everything about your Bank
@@ -30,7 +30,7 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /IndusInd:
+  /indusind:
     put:
       tags:
         - IndusInd
