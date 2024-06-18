@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
-  description: The petstore API
+  name: IndusInd
+  description: The  IndusInd API
   tags:
-    - store
-    - rest
+    - bank
+    # - rest
   links:
     - url: https://github.com/alok0593singh/api-test-repo/tree/main/swagger-petstore-master
       title: GitHub Repo
