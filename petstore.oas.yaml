@@ -30,7 +30,7 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /indusind:
+  /account:
     put:
       tags:
         - IndusInd
@@ -105,7 +105,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /indusind/findByStatus:
+  /account/findByStatus:
     get:
       tags:
         - IndusInd
@@ -145,7 +145,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /indusind/findByTags:
+  /account/findByTags:
     get:
       tags:
         - IndusInd
@@ -182,7 +182,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /indusind/{petId}:
+  /account/{petId}:
     get:
       tags:
         - IndusInd
@@ -274,7 +274,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /indusind/{petId}/uploadImage:
+  /account/{petId}/uploadImage:
     post:
       tags:
         - IndusInd
