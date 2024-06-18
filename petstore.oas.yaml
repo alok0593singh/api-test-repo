@@ -15,30 +15,30 @@ externalDocs:
   description: Find out more about Swagger
   url: http://swagger.io
 servers:
-  - url: https://indusInd.swagger.io/api/v3
+  - url: https://indusnd.ux.io
 tags:
-  - name: pet
-    description: Everything about your Pets
+  - name: IndusInd
+    description: Everything about your Bank
     externalDocs:
       description: Find out more
       url: http://swagger.io
-  - name: store
-    description: Access to Petstore orders
+  - name: bankaccount
+    description: Access to bankaccount orders
     externalDocs:
-      description: Find out more about our store
+      description: Find out more about our bankaccount
       url: http://swagger.io
   - name: user
     description: Operations about user
 paths:
-  /pet:
+  /bankaccount:
     put:
       tags:
-        - pet
-      summary: Update an existing pet
-      description: Update an existing pet by Id
-      operationId: updatePet
+        - bankaccount
+      summary: Update an existing bankaccount
+      description: Update an existing bankaccount by Id
+      operationId: updatebankaccount
       requestBody:
-        description: Update an existent pet in the store
+        description: Update an existent bankaccount in the store
         content:
           application/json:
             schema:
