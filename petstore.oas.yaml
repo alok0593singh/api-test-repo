@@ -33,7 +33,7 @@ paths:
   /account:
     put:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Update an existing bankaccount
       description: Update an existing bankaccount by Id
       operationId: updatebankaccount
@@ -72,7 +72,7 @@ paths:
             - read:pets
     post:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Add a new account to the store
       description: Add a new account to the store
       operationId: addaccount
@@ -108,7 +108,7 @@ paths:
   /account/findByStatus:
     get:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Finds Pets by status
       description: Multiple status values can be provided with comma separated strings
       operationId: findPetsByStatus
@@ -148,7 +148,7 @@ paths:
   /account/findByTags:
     get:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Finds account by tags
       description: Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
       operationId: findaccountByTags
@@ -185,7 +185,7 @@ paths:
   /account/{Id}:
     get:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Find account by ID
       description: Returns a single pet
       operationId: getaccountById
@@ -218,7 +218,7 @@ paths:
             - read:account
     post:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Updates a pet in the store with form data
       description: ''
       operationId: updatePetWithForm
@@ -249,7 +249,7 @@ paths:
             - read:pets
     delete:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: Deletes a account
       description: delete a account
       operationId: deleteaccount
@@ -277,7 +277,7 @@ paths:
   /account/{Id}/uploadImage:
     post:
       tags:
-        - IndusInd
+        - IndusInd bank account
       summary: uploads an image
       description: ''
       operationId: uploadFile
