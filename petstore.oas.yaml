@@ -17,8 +17,8 @@ externalDocs:
 servers:
   - url: https://indusind.com
 tags:
-  - name: IndusInd
-    description: Everything about your Bank
+  - name: IndusInd account
+    description: Everything about your Bank account
     externalDocs:
       description: Find out more
       url: http://swagger.io
