@@ -17,7 +17,7 @@ externalDocs:
 servers:
   - url: https://indusind.com
 tags:
-  - name: IndusInd account
+  - name: IndusInd bank account
     description: Everything about your Bank account
     externalDocs:
       description: Find out more
