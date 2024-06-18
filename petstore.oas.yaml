@@ -105,7 +105,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/findByStatus:
+  /indusind/findByStatus:
     get:
       tags:
         - IndusInd
@@ -145,7 +145,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/findByTags:
+  /indusind/findByTags:
     get:
       tags:
         - IndusInd
@@ -182,7 +182,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/{petId}:
+  /indusind/{petId}:
     get:
       tags:
         - IndusInd
@@ -274,7 +274,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/{petId}/uploadImage:
+  /indusind/{petId}/uploadImage:
     post:
       tags:
         - IndusInd
