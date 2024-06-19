@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore-webhook
-  description: The petstore webhook API
+  name: IndusInd-webhook
+  description: The IndusInd webhook API
   tags:
     - store
     - rest
