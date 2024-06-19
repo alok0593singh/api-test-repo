@@ -30,7 +30,7 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /account:
+  /pet:
     put:
       tags:
         - IndusInd bank account
