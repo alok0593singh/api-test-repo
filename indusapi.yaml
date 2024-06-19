@@ -16,6 +16,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: demo
+  # owner: demo
   definition:
     $text: ./indus.oas.yaml
