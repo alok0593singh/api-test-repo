@@ -7,7 +7,7 @@ metadata:
     - store
     - rest
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
+    - url: https://github.com/alok0593singh/api-test-repo/tree/main/swagger-petstore-master
       title: GitHub Repo
       icon: github
     - url: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.1/webhook-example.yaml
