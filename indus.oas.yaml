@@ -22,11 +22,11 @@ tags:
     externalDocs:
       description: Find out more
       url: http://swagger.io
-  # - name: credit
-  #   description: Access to credit orders
-  #   externalDocs:
-  #     description: Find out more about our credit
-  #     url: http://swagger.io
+  - name: credit
+    description: Access to credit orders
+    externalDocs:
+      description: Find out more about our credit
+      url: http://swagger.io
   - name: user
     description: Operations about user
 paths:
