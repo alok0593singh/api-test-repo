@@ -12,9 +12,9 @@ info:
   # version: 1.0.11
 externalDocs:
   description: Find out more about IndusInd Bank
-  url: http://swagger.io
+  url: https://www.indusind.com/in/en/personal.html#
 servers:
-  - url: https://www.indusind.com/in/en/personal.html#
+  - url: https://www.indusind.com
 tags:
   - name: bank account
     description: Everything about your Bank account
