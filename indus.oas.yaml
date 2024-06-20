@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: IndusInd - OpenAPI 3.1
+  title: IndusInd - API
   description: |-
     This is a sample IndusInd Bank Server based on the OpenAPI 3.1 specification. 
   termsOfService: http://swagger.io/terms/
