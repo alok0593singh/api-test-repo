@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sonarqube
+  description: SonarQube instance for code quality analysis
+  annotations:
+    # Replace with your organization and domain-specific annotations
+    sonarqube.io/projectKey: rp_test_proj
+spec:
+  type: service
+  lifecycle: production
+  owner: 
+    # Owner information, replace with your details
+    name: John Doe
+    contact: john.doe@example.com
+  provides:
+    - type: code-quality
+      attributes:
+        url: http://localhost:9000
+        # Other attributes like metrics, integration details
+  relations:
+    - type: uses-service
+      target: sonarqube-database
+      # Replace with actual database service name
